@@ -1,0 +1,125 @@
+@media (max-width:768px){
+
+body{
+    overflow-x:hidden;
+}
+
+/* NAVBAR */
+
+.navbar{
+    padding:15px 20px;
+}
+
+.menu-toggle{
+    display:block;
+    font-size:28px;
+    cursor:pointer;
+}
+
+.nav-links{
+    display:none;
+    position:absolute;
+    top:75px;
+    left:0;
+    width:100%;
+    background:#111;
+    flex-direction:column;
+    text-align:center;
+    padding:20px 0;
+}
+
+.nav-links.active{
+    display:flex;
+}
+
+.hire-btn{
+    display:none;
+}
+
+/* HERO */
+
+.hero{
+    display:flex;
+    flex-direction:column-reverse;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    gap:35px;
+    padding:90px 20px 50px;
+}
+
+.hero-content{
+    width:100%;
+}
+
+.hero-content h1{
+    font-size:30px;
+    line-height:1.2;
+    margin-bottom:20px;
+}
+
+.hero-content p{
+    font-size:16px;
+    line-height:1.7;
+}
+
+.hero-image{
+    width:100%;
+}
+
+.hero-image img{
+    width:180px !important;
+    height:180px !important;
+    border-radius:20px;
+}
+
+.hero-buttons{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+.hero-buttons a{
+    width:100%;
+}
+
+.hero-stats{
+    display:grid;
+    grid-template-columns:1fr;
+    gap:20px;
+}
+
+/* ALL GRIDS */
+
+.services-grid,
+.portfolio-grid,
+.project-grid,
+.process-grid,
+.testimonial-grid,
+.pricing-grid,
+.contact-container,
+.footer-grid{
+
+    display:grid;
+    grid-template-columns:1fr;
+
+}
+
+.portfolio-buttons{
+    flex-direction:column;
+}
+
+.project-card img,
+.portfolio-card img{
+    height:180px;
+    object-fit:cover;
+}
+
+.whatsapp-float{
+    width:55px;
+    height:55px;
+    right:20px;
+    bottom:20px;
+}
+
+}
